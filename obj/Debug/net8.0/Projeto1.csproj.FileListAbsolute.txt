@@ -26,3 +26,4 @@ C:\Users\GNogg\Desktop\Programação\Projetos\obj\Debug\net8.0\refint\Projeto1.d
 C:\Users\GNogg\Desktop\Programação\Projetos\obj\Debug\net8.0\Projeto1.pdb
 C:\Users\GNogg\Desktop\Programação\Projetos\obj\Debug\net8.0\Projeto1.genruntimeconfig.cache
 C:\Users\GNogg\Desktop\Programação\Projetos\obj\Debug\net8.0\ref\Projeto1.dll
+C:\Users\GNogg\Desktop\Programação\Projetos\obj\Debug\net8.0\Projeto1.sourcelink.json

@@ -23,7 +23,7 @@ namespace Projetos.Models
             Console.WriteLine($"{x} ** {y} = Math.Pow(x, y)");
         }
         public void RaizQuadrada (double x){
-            Console.WriteLine($"Raiz quadrada de {Math.Sqrt(x)}");
+            Console.WriteLine($"Raiz quadrada de {x} é {Math.Sqrt(x)}");
         }
     }
 }

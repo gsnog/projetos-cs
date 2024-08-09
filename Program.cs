@@ -5,9 +5,10 @@ bool continuar = true;
 
 while(continuar == true){
     //criando o menu
+    Console.Clear();
     Console.WriteLine("Bem vindo a sua calculadora!");
     Console.WriteLine("Escolha a operação que gostaria de realizar!");
-    Console.WriteLine("1 - Somar \n2 - Subtrair \n3 - Multiplicar \n4 - Dividir \n5 - Potência \n6 - Raiz Quadrada \n7 - Encerrar");
+    Console.WriteLine("1 - Somar \n2 - Subtrair \n3 - Multiplicar \n4 - Dividir \n5 - Potência \n6 - Raiz Quadrada \n");
 
     //recebendo a entrada do usuario
     string opcaoStr = Console.ReadLine();
@@ -18,7 +19,7 @@ while(continuar == true){
 
     //validando a entrada
     if (int.TryParse(opcaoStr, out int opcao)){
-        if(opcao >=1 && opcao <=7){
+        if(opcao >=1 && opcao <=6){
             switch(opcao){
                 case 1:
                     Console.WriteLine("Digite o primeiro número: ");
@@ -66,13 +67,10 @@ while(continuar == true){
                     }
                     break;
                 case 6:
-                    Console.WriteLine("Digite o primeiro número: ");
+                    Console.WriteLine("Digite o número: ");
                     if(double.TryParse(Console.ReadLine(), out x)){
                         calc.RaizQuadrada(x);
                     }
-                    break;
-                case 7:
-                    Console.WriteLine("Encerrando");
                     break;
             }
         }
@@ -82,6 +80,6 @@ while(continuar == true){
 
     if (resposta != "s"){
         continuar = false; // Encerra o loop se a resposta não for 's'
-        Console.WriteLine("Obrigada!");
+        Console.WriteLine("Encerrando! Obrigada!");
     }
 }    
